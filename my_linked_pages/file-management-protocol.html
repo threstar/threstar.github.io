@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"threstar.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":"ture","version":"8.23.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="个人文件归纳管理规范              body { font-family: sans-serif; line-height: 1.6; margin: 20px; padding: 0; }         h1, h2, h3, h4 { color: #333; }         h1 { text-align: center; border-b">
+<meta property="og:type" content="website">
+<meta property="og:title" content="三颗星星">
+<meta property="og:url" content="https://threstar.github.io/my_linked_pages/file-management-protocol.html">
+<meta property="og:site_name" content="三颗星星">
+<meta property="og:description" content="个人文件归纳管理规范              body { font-family: sans-serif; line-height: 1.6; margin: 20px; padding: 0; }         h1, h2, h3, h4 { color: #333; }         h1 { text-align: center; border-b">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-05-29T07:35:27.746Z">
+<meta property="article:modified_time" content="2025-05-29T06:50:58.703Z">
+<meta property="article:author" content="三颗星星">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://threstar.github.io/my_linked_pages/file-management-protocol">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://threstar.github.io/my_linked_pages/file-management-protocol.html","path":"my_linked_pages/file-management-protocol.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title> | 三颗星星
+</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">三颗星星</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-schedule"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li><li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">个人文件归纳管理规范 (HTML版)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.1.</span> <span class="nav-text">一、目标</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.2.</span> <span class="nav-text">二、核心管理原则</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.3.</span> <span class="nav-text">三、建议文件夹结构</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.3.1.</span> <span class="nav-text">A. 顶层文件夹规划</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.3.2.</span> <span class="nav-text">B. 01_课程学习 文件夹细分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.3.3.</span> <span class="nav-text">C. 02_科研项目 文件夹细分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.3.4.</span> <span class="nav-text">D. 08_AI智慧锦囊 文件夹细分</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.4.</span> <span class="nav-text">四、文件命名规范详解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.5.</span> <span class="nav-text">五、辅助工具建议</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.6.</span> <span class="nav-text">六、执行与调整</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="三颗星星"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">三颗星星</p>
+  <div class="site-description" itemprop="description">梦想是做快乐小狗</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner page posts-expand">
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">
+</h1>
+
+<div class="post-meta-container">
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人文件归纳管理规范</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 20px; padding: 0; }
+        h1, h2, h3, h4 { color: #333; }
+        h1 { text-align: center; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 30px; }
+        h3 { margin-top: 20px; }
+        ul, ol { margin-bottom: 15px; padding-left: 20px; }
+        li { margin-bottom: 5px; }
+        p { margin-bottom: 10px; }
+        code, pre {
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        pre {
+            display: block;
+            padding: 10px;
+            margin: 10px 0;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        strong { font-weight: bold; }
+        em { font-style: italic; }
+        hr { border: 0; height: 1px; background: #ddd; margin: 30px 0; }
+        .note { font-style: italic; color: #555; }
+    </style>
+</head>
+<body>
+
+    <h1>个人文件归纳管理规范 (HTML版)</h1>
+
+    <h2>一、目标</h2>
+    <p>本规范旨在建立一套清晰、高效、可持续的个人电脑文件管理体系，以提高学习与科研效率，确保数字资产的安全与易用性。</p>
+
+    <h2>二、核心管理原则</h2>
+    <ol>
+        <li><strong>统一命名 (Consistent Naming):</strong>
+            <ul>
+                <li>所有文件和文件夹均采用统一、清晰的命名规则。</li>
+                <li>推荐格式：<code>YYYY-MM-DD_类别/项目代码_文件描述_v版本号.后缀</code></li>
+                <li>避免使用模糊、过长或包含特殊字符的名称。</li>
+            </ul>
+        </li>
+        <li><strong>逻辑结构 (Logical Structure):</strong>
+            <ul>
+                <li>建立层级清晰、分类明确的文件夹树状结构。</li>
+                <li>文件夹层级不宜过深 (建议3-5层)。</li>
+                <li>定期审视和优化文件夹结构。</li>
+            </ul>
+        </li>
+        <li><strong>定期备份 (Regular Backup):</strong>
+            <ul>
+                <li>遵循3-2-1备份原则 (3份副本，2种介质，1份异地)。</li>
+                <li>利用云存储和本地外部硬盘进行备份。</li>
+                <li>尽可能设置自动化备份。</li>
+            </ul>
+        </li>
+        <li><strong>版本控制 (Version Control):</strong>
+            <ul>
+                <li>重要文档和代码应有清晰的版本标识 (如 <code>_v1.0</code>, <code>_v1.1</code>, <code>_Final</code>)。</li>
+                <li>关键项目可考虑使用Git等专业版本控制工具。</li>
+            </ul>
+        </li>
+        <li><strong>定期清理 (Regular Declutter):</strong>
+            <ul>
+                <li>每学期/每月定期整理，删除无用文件，归档旧项目。</li>
+                <li>保持“下载”文件夹的清洁。</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>三、建议文件夹结构</h2>
+
+    <h3>A. 顶层文件夹规划</h3>
+    <pre><code>
+/ (根目录或用户主目录)
+├── 01_课程学习 (Coursework)
+├── 02_科研项目 (Research)
+├── 03_学术发表 (Publications)
+├── 04_学术报告 (Presentations)
+├── 05_行政事务 (Admin)
+├── 06_工具与软件 (Software_Tools)
+├── 07_个人发展 (Personal_Development)
+├── 08_AI智慧锦囊 (AI_Wisdom)
+├── 09_照片与多媒体 (Photos_Media)
+└── 10_临时与下载 (Temporary_Downloads) (需定期清理)
+    </code></pre>
+
+    <h3>B. <code>01_课程学习</code> 文件夹细分</h3>
+    <pre><code>
+/01_课程学习 (Coursework)
+    ├── YYYY学年秋 (YYYY_Fall_Semester)
+    │   ├── 课程代码1_课程名称 (e.g., CS501_Advanced_Algorithms)
+    │   │   ├── 01_课件讲义 (Lectures)
+    │   │   ├── 02_阅读材料 (Readings)
+    │   │   ├── 03_作业实验 (Assignments_Labs)
+    │   │   └── 04_课堂笔记 (Notes)
+    │   └── 课程代码2_课程名称
+    │       └── ...
+    └── YYYY学年春 (YYYY_Spring_Semester)
+        └── ...
+    </code></pre>
+
+    <h3>C. <code>02_科研项目</code> 文件夹细分</h3>
+    <pre><code>
+/02_科研项目 (Research)
+    ├── 项目A_项目具体名称 (e.g., Project_Nanomaterials_Char)
+    │   ├── 01_文献资料 (Literature_Review)
+    │   ├── 02_实验设计与方案 (Protocols_Design)
+    │   ├── 03_原始数据 (Raw_Data)
+    │   │   ├── 实验批次1 (Batch_01)
+    │   │   └── ...
+    │   ├── 04_数据分析与代码 (Analysis_Code)
+    │   │   ├── Scripts
+    │   │   └── Results
+    │   ├── 05_项目笔记与会议记录 (Notes_Meetings)
+    │   ├── 06_论文草稿与报告 (Drafts_Reports)
+    │   └── 07_相关演示文稿 (Presentations)
+    └── 项目B_项目具体名称
+        └── ...
+    </code></pre>
+
+    <h3>D. <code>08_AI智慧锦囊</code> 文件夹细分</h3>
+    <pre><code>
+/08_AI智慧锦囊 (AI_Wisdom)
+    ├── YYYY-MM-DD_主题关键词_模型 (e.g., 2025-05-28_FileOrganization_GPT4)
+    │   ├── Prompt.txt (或 .md)
+    │   └── Response.md (或 .txt)
+    └── 主题分类文件夹 (e.g., Research_Methodology, Coding_Assistance)
+        └── ...
+    </code></pre>
+
+    <h2>四、文件命名规范详解</h2>
+    <ul>
+        <li><strong>日期：</strong> <code>YYYY-MM-DD</code> 或 <code>YYYYMMDD</code> (例如: <code>2025-05-28</code>) - 用于文件排序和追溯。</li>
+        <li><strong>类别/项目代码：</strong> 简短的课程代码、项目代号或主题分类词 (例如: <code>CS501</code>, <code>NanoMat_Project</code>, <code>LiteratureSurvey</code>)。</li>
+        <li><strong>文件描述：</strong> 清晰概括文件核心内容 (例如: <code>Lecture_03_Slides</code>, <code>Experiment_Data_Batch1</code>, <code>Paper_Draft</code>, <code>Meeting_Minutes</code>)。</li>
+        <li><strong>版本号：</strong> <code>v1</code>, <code>v2</code>, <code>v1.1</code>, <code>Draft</code>, <code>Final</code> 等 (例如: <code>v1.2</code>, <code>Draft_03</code>, <code>Final_Submitted</code>)。</li>
+        <li><strong>分隔符：</strong> 使用下划线 <code>_</code> 或短横线 <code>-</code> 分隔不同部分，保持一致性。</li>
+        <li><strong>后缀：</strong> 保留标准文件后缀名 (如 <code>.docx</code>, <code>.pdf</code>, <code>.py</code>, <code>.md</code>)。</li>
+    </ul>
+    <p><strong>示例：</strong></p>
+    <ul>
+        <li><code>2025-05-28_CS501_Assignment3_Solution_v1.pdf</code></li>
+        <li><code>2025-06-15_NanoMat_Project_Experiment_Data_Batch2_Raw.csv</code></li>
+        <li><code>2025-07-01_LiteratureSurvey_AI_Ethics_Summary_Notes_v2.md</code></li>
+    </ul>
+
+    <h2>五、辅助工具建议</h2>
+    <ul>
+        <li><strong>文献管理：</strong> Zotero, Mendeley, EndNote</li>
+        <li><strong>笔记与知识管理：</strong> Obsidian, Notion, Evernote, OneNote</li>
+        <li><strong>云存储与同步：</strong> Google Drive, OneDrive, Dropbox, iCloud</li>
+        <li><strong>备份软件：</strong> Windows 文件历史记录, macOS 时间机器, 或第三方备份软件</li>
+    </ul>
+
+    <h2>六、执行与调整</h2>
+    <ol>
+        <li><strong>立即行动：</strong> 从当前文件开始应用本规范，逐步整理历史文件。</li>
+        <li><strong>形成习惯：</strong> 每次创建或下载文件后，立即按规范命名和归档。</li>
+        <li><strong>定期回顾：</strong> 每月或每季度回顾和优化您的文件管理系统。</li>
+        <li><strong>灵活调整：</strong> 本规范为通用建议，请根据您的专业领域和个人偏好进行调整，使其最适合您。</li>
+    </ol>
+
+    <hr>
+    <p class="note"><strong>保持一致性和持续性是文件管理成功的关键。</strong></p>
+
+</body>
+</html>
+      </div>
+      
+      
+      
+    </div>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">三颗星星</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
